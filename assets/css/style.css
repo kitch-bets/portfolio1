@@ -1234,7 +1234,7 @@ textarea.form-input::-webkit-resizer { display: none; }
  * responsive larger than 450px screen
  */
 
-@media (min-width: 450px) {
+@media (min-width: 1024px) {
 
   /**
    * client
@@ -1261,7 +1261,7 @@ textarea.form-input::-webkit-resizer { display: none; }
  * responsive larger than 580px screen
  */
 
-@media (min-width: 580px) {
+@media (min-width: 1024px) {
 
   /**
    * CUSTOM PROPERTY
@@ -1290,7 +1290,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar, article {
-    width: 520px;
+    width: 700px;
     margin-inline: auto;
     padding: 30px;
   }
