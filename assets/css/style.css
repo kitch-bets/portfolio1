@@ -411,8 +411,9 @@ main {
 }
 
 .contact-info {
-  max-width: calc(100% - 46px);
-  width: calc(100% - 46px);
+    width: 100%;
+    word-break: break-word;
+    overflow-wrap: anywhere;
 }
 
 .contact-title {
@@ -1362,10 +1363,11 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .contacts-list { gap: 20px; }
 
-  .contact-info {
-    max-width: calc(100% - 64px);
-    width: calc(100% - 64px);
-  }
+    .contact-info {
+        width: 100%;
+        word-break: break-word;
+        overflow-wrap: anywhere;
+    }
 
 
 
